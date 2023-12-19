@@ -3,6 +3,11 @@ This is an appendix to the '検索クエリパーサー自作入門' article pub
   
 The goal is to learn how to create a search query parser through implementation examples.
 
+## Prerequisites
+* Install Python. (^3.11)
+* Running Docker daemon.
+* Install Visual Studio Code and [ANTLR4 grammar syntax support](https://marketplace.visualstudio.com/items?itemName=mike-lischke.vscode-antlr4).
+
 ## Directory
 ```
 .vscode              -- Settings for ANTLR4 grammar syntax support
@@ -53,6 +58,8 @@ This grammar is an example; other ways of expression are possible.
 ```
 make install-poetry
 ```
+
+If there is an executable in `~/.local/bin/poetry`, add it to the PATH.
 
 2. Set up
 ```
@@ -178,7 +185,7 @@ make test
 ## License
 Licensed under either of  
   
-- Apache License, Version 2.0 (LICENSE-APACHE)  
-- MIT license (LICENSE-MIT)
+- Apache License, Version 2.0 ([LICENSE-APACHE](https://github.com/legalontech-oss/simple-search-query-parser-sample/blob/main/LICENSE-APACHE))
+- MIT license ([LICENSE-MIT](https://github.com/legalontech-oss/simple-search-query-parser-sample/blob/main/LICENSE-MIT))
 
 at your option.  
