@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "simple-search-query-parser-sample"
+version = "0.0.1"
+description = ""
+authors = ["LegalOn Technologies, Inc."]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+antlr4-python3-runtime = "^4.13"
+antlr4-tools = "^0.2"
+elasticsearch = "8.8.*"
+pytest = "^7.3.1"

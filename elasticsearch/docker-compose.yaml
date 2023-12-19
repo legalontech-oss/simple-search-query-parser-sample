@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  elasticsearch:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: es
+    ports:
+      - 9200:9200
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    networks:
+      - es_nw
+
+networks:
+  es_nw:
+    driver: bridge
+
+volumes:
+  es_data:
