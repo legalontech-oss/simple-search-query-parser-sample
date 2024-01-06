@@ -1,5 +1,5 @@
 # Simple Search Query Parser Sample
-This is an appendix to the '検索クエリパーサー自作入門' article published on the LegalOn Technologies Engineering Blog.  
+This is an appendix to the [検索クエリパーサー自作入門](https://tech.legalforce.co.jp/entry/2023/12/20/211139) article published on the LegalOn Technologies Engineering Blog.  
   
 The goal is to learn how to create a search query parser through implementation examples.
 
